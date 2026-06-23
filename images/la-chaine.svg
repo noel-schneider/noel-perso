@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Placeholder chaîne vidéo">
+  <rect width="600" height="600" fill="#4b5563"/>
+  <g stroke="#ffffff" stroke-opacity="0.5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="190" y="215" width="220" height="170" rx="28" fill="none"/>
+    <path d="M278 262 L338 300 L278 338 Z" fill="#ffffff" fill-opacity="0.5" stroke="none"/>
+  </g>
+</svg>

@@ -5,6 +5,7 @@ export const projects = [
     year: '2025',
     kind: 'page',
     href: './projets/les-heures.html',
+    image: './images/les-heures.svg',
   },
   {
     title: 'Nocturne',
@@ -12,6 +13,7 @@ export const projects = [
     year: '2024',
     kind: 'external',
     href: 'https://open.spotify.com/',
+    image: './images/nocturne.svg',
   },
   {
     title: 'MangerDemain',
@@ -19,6 +21,7 @@ export const projects = [
     year: '2024',
     kind: 'external',
     href: 'https://apps.apple.com/',
+    image: './images/mangerdemain.svg',
   },
   {
     title: 'La chaîne',
@@ -26,6 +29,7 @@ export const projects = [
     year: '2023',
     kind: 'external',
     href: 'https://youtube.com/',
+    image: './images/la-chaine.svg',
   },
   {
     title: 'Le blog',
@@ -33,5 +37,6 @@ export const projects = [
     year: '2022',
     kind: 'external',
     href: 'https://noel-schneider.framer.website/',
+    image: './images/le-blog.svg',
   },
 ]

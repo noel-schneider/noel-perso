@@ -6,11 +6,15 @@ function cardHTML(p) {
   const arrow = isExternal ? '↗' : '→'
   return `
     <a href="${p.href}"${targetAttrs}
-       class="group flex min-h-[120px] flex-col justify-between rounded-lg border border-neutral-200 p-5 transition-colors hover:border-neutral-400 dark:border-neutral-800 dark:hover:border-neutral-600">
-      <span class="text-xs uppercase tracking-wider text-neutral-400 dark:text-neutral-500">${p.category}</span>
-      <span class="mt-6 flex items-end justify-between">
-        <span class="text-lg font-medium">${p.title}</span>
-        <span class="text-sm text-neutral-400 transition-transform group-hover:translate-x-0.5 dark:text-neutral-500">${arrow}</span>
+       class="group relative block aspect-square overflow-hidden rounded-lg border border-neutral-200 dark:border-neutral-800">
+      <img src="${p.image}" alt="${p.title}" loading="lazy"
+           class="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" />
+      <span class="absolute inset-x-0 bottom-0 flex items-end justify-between gap-2 bg-gradient-to-t from-black/70 via-black/30 to-transparent p-3">
+        <span class="flex flex-col">
+          <span class="text-[11px] uppercase tracking-wider text-white/70">${p.category}</span>
+          <span class="text-sm font-medium text-white">${p.title}</span>
+        </span>
+        <span class="text-sm text-white/80 transition-transform group-hover:translate-x-0.5">${arrow}</span>
       </span>
     </a>`
 }

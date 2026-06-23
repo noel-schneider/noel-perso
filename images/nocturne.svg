@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Placeholder musique">
+  <rect width="600" height="600" fill="#44403c"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="258" cy="368" rx="26" ry="20"/>
+    <ellipse cx="372" cy="346" rx="26" ry="20"/>
+    <path d="M284 368 L284 232"/>
+    <path d="M398 346 L398 214"/>
+    <path d="M284 232 L398 214"/>
+  </g>
+</svg>

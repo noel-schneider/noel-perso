@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Placeholder théâtre">
+  <rect width="600" height="600" fill="#3f3f46"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="7" stroke-linecap="round">
+    <circle cx="300" cy="290" r="110"/>
+    <path d="M252 270 L278 270"/>
+    <path d="M322 270 L348 270"/>
+    <path d="M250 320 Q300 372 350 320"/>
+  </g>
+</svg>

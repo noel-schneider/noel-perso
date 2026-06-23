@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Placeholder blog">
+  <rect width="600" height="600" fill="#374151"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="7" stroke-linecap="round">
+    <path d="M210 240 L390 240"/>
+    <path d="M210 290 L390 290"/>
+    <path d="M210 340 L330 340"/>
+  </g>
+</svg>
